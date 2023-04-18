@@ -5,6 +5,7 @@
     font-family: 'Rubik Mono One', sans-serif;
 }
 
+/* header */
 .row{
     width: 100%;
 }
@@ -34,7 +35,7 @@ a:visited{
     background-color: #fff;
     height: 40px;
     width: 40px;
-    padding-top: 7px;
+    padding-top: 9px;
     border-radius: 50px;
     text-align: center;
     margin-right: 50px;
@@ -44,7 +45,8 @@ a:visited{
 .first, .second{
     margin-right: 40px;
 }
-
+/* end header */
+/* main */
 .container{
     position: relative;
 }
@@ -85,3 +87,4 @@ h1{
 #green-text{
     color: green;
 }
+/* end main */
