@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+/* header */
+.row{
+    width: 100%;
+}
+
+.col-100{
+    width: 100%;
+}
+
+.navi-bar{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    z-index: 100;
+    top: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: #000;
+}
+
+.header-content{
+    background-color: #fff;
+    height: 40px;
+    width: 40px;
+    padding-top: 9px;
+    border-radius: 50px;
+    text-align: center;
+    margin-right: 50px;
+    font-weight: 900;
+}
+
+.first, .second{
+    margin-right: 40px;
+}
+/* end header */
+/* main */
+.container{
+    position: relative;
+}
+
+#red-container{
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+}
+
+#green-container{
+    height: 100vh;
+    width: 100%;
+    background-color: green;
+}
+
+#yellow-container{
+    height: 100vh;
+    width: 100%;
+    background-color: yellow;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+h1{
+    font-size: 3.6rem;
+    text-transform: uppercase;
+    color: yellow;
+}
+
+#green-text{
+    color: green;
+}
+/* end main */
